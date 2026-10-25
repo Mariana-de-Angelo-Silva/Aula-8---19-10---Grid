@@ -1,0 +1,69 @@
+*{margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 30vh 30vh 30vh;
+    margin: 20px;
+    gap: 20px;
+}
+
+aside{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25vh 25vh 25vh;
+    border-radius: 10px;
+    margin: 25px;
+    gap:25px; 
+}
+
+.blocoRoxo{
+    background-color: #6d58c5;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    border-radius: 10px;
+}
+
+
+main{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25vh 25vh 25vh;
+    border-radius: 10px;
+    margin: 25px;
+    gap:25px;
+}
+
+section{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25vh 25vh 25vh;
+    border-radius: 10px;
+    margin: 20px;
+    gap:25px;
+}
+.blocoAzul{
+    background-color: #3A75E5;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    border-radius: 10px;
+}
+
+
+.blocoVerde{
+    background-color: #6BCB77;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    border-radius: 10px;
+}
+
+

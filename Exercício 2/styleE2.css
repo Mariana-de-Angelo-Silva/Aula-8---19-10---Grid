@@ -1,0 +1,70 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3rf;
+    grid-template-rows: 5vh 28vh 28vh 25vh 12vh; /*8 no total*/
+  }
+
+  header{
+    background-color: rgb(28, 27, 27);
+    grid-column-start: 1;
+    grid-column-end: 5;
+        h6{ font-size: 50px; color: white}
+    
+  }
+
+  section{
+    background-color: #787bce;
+    grid-column-start: 1;
+    grid-column-end: 5;
+        h6{font-size: 50px; color: black}
+  }
+
+  aside{
+    background-color: #FF0000;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    /*grid-row-end: 8;*/
+        h6{font-size: 50px; color: black}
+  }
+
+  main{
+    background-color: #383751;
+    grid-column-start: 2;
+    grid-column-end: 5;
+        h6{font-size: 50px; color: white}
+  }
+
+  #bloco1{
+    background-color:#FFFF00;
+    grid-column-start: 2;
+    grid-column-end: 5;
+        h6{font-size: 50px; color: black}
+  }
+
+  #bloco2{
+    background-color:rgb(103, 188, 160);
+    grid-column-start: 2;
+    grid-column-end: 3;
+        h6{font-size: 50px; color: black}
+  }
+  #bloco3{
+    background-color:#FF69B4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+        h6{font-size: 50px; color: black}
+  }
+
+  
+
+
+
+
+
+  /*Dúvida:
+  - Eu posso por as várias caixinhas dentro de uma mesma main e dentro dela ir criando aside, section e divs para esses vários blocos ou devo, para o maior em lavanda criar uma div sem ser dentro de um dos blocos principais? 
+  - Para o footer, eu poderia ter usado um "display:grid" nele pra fazer as divisões dos blocos verde-água e rosa?*/

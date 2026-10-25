@@ -5,15 +5,36 @@
 .container{
     display: grid;
     grid-template-columns: 3fr, 1fr;
-    grid-template-rows:20vh 70vh 10vh;
-    margin: 10px;
-    gap: 10px;
+    grid-template-rows:20vh 70vh 15vh; /*professora, coloquei esse 15vh pois achei  que o footer estava muito fino, entãpo, pra melhorar esteticamente melhor, deci aumentar um pouco*/
+    margin: 20px;
+    gap: 20px;
 }
 
 
 header{
-  background-color: aliceblue;
-  height: 100px;
+  background-color: #FFD15C;
   grid-column-start: 1;
   grid-column-end: 4;
+  border-radius: 10px;
+}
+
+main{
+  background-color: #3A75E5;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border-radius: 10px;
+}
+
+aside{
+  background-color: #6BCB77;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  border-radius: 10px;
+}
+
+footer{
+  background-color: #8E75F5;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  border-radius: 10px;
 }
