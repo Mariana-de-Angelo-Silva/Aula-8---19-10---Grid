@@ -5,8 +5,7 @@
 .container{
     display: grid;
     grid-template-columns: 3fr, 1fr;
-    grid-template-rows:20vh 70vh 15vh; /*professora, coloquei esse 15vh pois achei  que o footer estava muito fino, entãpo, pra melhorar esteticamente melhor, deci aumentar um pouco*/
-    margin: 20px;
+    grid-template-rows:20vh 70vh 15vh; 
     gap: 20px;
 }
 

@@ -4,67 +4,28 @@
 
   .container{
     display: grid;
-    grid-template-columns: 1fr 2fr 3rf;
-    grid-template-rows: 5vh 28vh 28vh 25vh 12vh; /*8 no total*/
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 5vh 25vh 30vh 24vh 15vh 15vh;   
   }
 
-  header{
-    background-color: rgb(28, 27, 27);
-    grid-column-start: 1;
-    grid-column-end: 5;
-        h6{ font-size: 50px; color: white}
-    
-  }
+  header{background-color: rgb(0, 0, 0);
+  grid-column: 1/5; h6{color: #f4f1f1;}}
 
-  section{
-    background-color: #787bce;
-    grid-column-start: 1;
-    grid-column-end: 5;
-        h6{font-size: 50px; color: black}
-  }
+  section{background-color: rgb(134, 62, 201);
+  grid-column: 1/5; h6{color: #f4f1f1;}}
 
-  aside{
-    background-color: #FF0000;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 3;
-    /*grid-row-end: 8;*/
-        h6{font-size: 50px; color: black}
-  }
+  main{background-color: rgb(13, 13, 118);
+  grid-column: 2/5; h6{color: #f4f1f1;}}
 
-  main{
-    background-color: #383751;
-    grid-column-start: 2;
-    grid-column-end: 5;
-        h6{font-size: 50px; color: white}
-  }
+  aside{background-color: red;
+  grid-column: 1/1;
+  grid-row:3/6 ;}
 
-  #bloco1{
-    background-color:#FFFF00;
-    grid-column-start: 2;
-    grid-column-end: 5;
-        h6{font-size: 50px; color: black}
-  }
+  #bloco1{background-color: yellow;
+    grid-column: 2/5;}
 
-  #bloco2{
-    background-color:rgb(103, 188, 160);
-    grid-column-start: 2;
-    grid-column-end: 3;
-        h6{font-size: 50px; color: black}
-  }
-  #bloco3{
-    background-color:#FF69B4;
-    grid-column-start: 3;
-    grid-column-end: 5;
-        h6{font-size: 50px; color: black}
-  }
+  #bloco2{background-color: aquamarine;
+    grid-column: 2/3;}
 
-  
-
-
-
-
-
-  /*Dúvida:
-  - Eu posso por as várias caixinhas dentro de uma mesma main e dentro dela ir criando aside, section e divs para esses vários blocos ou devo, para o maior em lavanda criar uma div sem ser dentro de um dos blocos principais? 
-  - Para o footer, eu poderia ter usado um "display:grid" nele pra fazer as divisões dos blocos verde-água e rosa?*/
+  #bloco3{background-color: pink;
+  grid-column: 3/5; }
